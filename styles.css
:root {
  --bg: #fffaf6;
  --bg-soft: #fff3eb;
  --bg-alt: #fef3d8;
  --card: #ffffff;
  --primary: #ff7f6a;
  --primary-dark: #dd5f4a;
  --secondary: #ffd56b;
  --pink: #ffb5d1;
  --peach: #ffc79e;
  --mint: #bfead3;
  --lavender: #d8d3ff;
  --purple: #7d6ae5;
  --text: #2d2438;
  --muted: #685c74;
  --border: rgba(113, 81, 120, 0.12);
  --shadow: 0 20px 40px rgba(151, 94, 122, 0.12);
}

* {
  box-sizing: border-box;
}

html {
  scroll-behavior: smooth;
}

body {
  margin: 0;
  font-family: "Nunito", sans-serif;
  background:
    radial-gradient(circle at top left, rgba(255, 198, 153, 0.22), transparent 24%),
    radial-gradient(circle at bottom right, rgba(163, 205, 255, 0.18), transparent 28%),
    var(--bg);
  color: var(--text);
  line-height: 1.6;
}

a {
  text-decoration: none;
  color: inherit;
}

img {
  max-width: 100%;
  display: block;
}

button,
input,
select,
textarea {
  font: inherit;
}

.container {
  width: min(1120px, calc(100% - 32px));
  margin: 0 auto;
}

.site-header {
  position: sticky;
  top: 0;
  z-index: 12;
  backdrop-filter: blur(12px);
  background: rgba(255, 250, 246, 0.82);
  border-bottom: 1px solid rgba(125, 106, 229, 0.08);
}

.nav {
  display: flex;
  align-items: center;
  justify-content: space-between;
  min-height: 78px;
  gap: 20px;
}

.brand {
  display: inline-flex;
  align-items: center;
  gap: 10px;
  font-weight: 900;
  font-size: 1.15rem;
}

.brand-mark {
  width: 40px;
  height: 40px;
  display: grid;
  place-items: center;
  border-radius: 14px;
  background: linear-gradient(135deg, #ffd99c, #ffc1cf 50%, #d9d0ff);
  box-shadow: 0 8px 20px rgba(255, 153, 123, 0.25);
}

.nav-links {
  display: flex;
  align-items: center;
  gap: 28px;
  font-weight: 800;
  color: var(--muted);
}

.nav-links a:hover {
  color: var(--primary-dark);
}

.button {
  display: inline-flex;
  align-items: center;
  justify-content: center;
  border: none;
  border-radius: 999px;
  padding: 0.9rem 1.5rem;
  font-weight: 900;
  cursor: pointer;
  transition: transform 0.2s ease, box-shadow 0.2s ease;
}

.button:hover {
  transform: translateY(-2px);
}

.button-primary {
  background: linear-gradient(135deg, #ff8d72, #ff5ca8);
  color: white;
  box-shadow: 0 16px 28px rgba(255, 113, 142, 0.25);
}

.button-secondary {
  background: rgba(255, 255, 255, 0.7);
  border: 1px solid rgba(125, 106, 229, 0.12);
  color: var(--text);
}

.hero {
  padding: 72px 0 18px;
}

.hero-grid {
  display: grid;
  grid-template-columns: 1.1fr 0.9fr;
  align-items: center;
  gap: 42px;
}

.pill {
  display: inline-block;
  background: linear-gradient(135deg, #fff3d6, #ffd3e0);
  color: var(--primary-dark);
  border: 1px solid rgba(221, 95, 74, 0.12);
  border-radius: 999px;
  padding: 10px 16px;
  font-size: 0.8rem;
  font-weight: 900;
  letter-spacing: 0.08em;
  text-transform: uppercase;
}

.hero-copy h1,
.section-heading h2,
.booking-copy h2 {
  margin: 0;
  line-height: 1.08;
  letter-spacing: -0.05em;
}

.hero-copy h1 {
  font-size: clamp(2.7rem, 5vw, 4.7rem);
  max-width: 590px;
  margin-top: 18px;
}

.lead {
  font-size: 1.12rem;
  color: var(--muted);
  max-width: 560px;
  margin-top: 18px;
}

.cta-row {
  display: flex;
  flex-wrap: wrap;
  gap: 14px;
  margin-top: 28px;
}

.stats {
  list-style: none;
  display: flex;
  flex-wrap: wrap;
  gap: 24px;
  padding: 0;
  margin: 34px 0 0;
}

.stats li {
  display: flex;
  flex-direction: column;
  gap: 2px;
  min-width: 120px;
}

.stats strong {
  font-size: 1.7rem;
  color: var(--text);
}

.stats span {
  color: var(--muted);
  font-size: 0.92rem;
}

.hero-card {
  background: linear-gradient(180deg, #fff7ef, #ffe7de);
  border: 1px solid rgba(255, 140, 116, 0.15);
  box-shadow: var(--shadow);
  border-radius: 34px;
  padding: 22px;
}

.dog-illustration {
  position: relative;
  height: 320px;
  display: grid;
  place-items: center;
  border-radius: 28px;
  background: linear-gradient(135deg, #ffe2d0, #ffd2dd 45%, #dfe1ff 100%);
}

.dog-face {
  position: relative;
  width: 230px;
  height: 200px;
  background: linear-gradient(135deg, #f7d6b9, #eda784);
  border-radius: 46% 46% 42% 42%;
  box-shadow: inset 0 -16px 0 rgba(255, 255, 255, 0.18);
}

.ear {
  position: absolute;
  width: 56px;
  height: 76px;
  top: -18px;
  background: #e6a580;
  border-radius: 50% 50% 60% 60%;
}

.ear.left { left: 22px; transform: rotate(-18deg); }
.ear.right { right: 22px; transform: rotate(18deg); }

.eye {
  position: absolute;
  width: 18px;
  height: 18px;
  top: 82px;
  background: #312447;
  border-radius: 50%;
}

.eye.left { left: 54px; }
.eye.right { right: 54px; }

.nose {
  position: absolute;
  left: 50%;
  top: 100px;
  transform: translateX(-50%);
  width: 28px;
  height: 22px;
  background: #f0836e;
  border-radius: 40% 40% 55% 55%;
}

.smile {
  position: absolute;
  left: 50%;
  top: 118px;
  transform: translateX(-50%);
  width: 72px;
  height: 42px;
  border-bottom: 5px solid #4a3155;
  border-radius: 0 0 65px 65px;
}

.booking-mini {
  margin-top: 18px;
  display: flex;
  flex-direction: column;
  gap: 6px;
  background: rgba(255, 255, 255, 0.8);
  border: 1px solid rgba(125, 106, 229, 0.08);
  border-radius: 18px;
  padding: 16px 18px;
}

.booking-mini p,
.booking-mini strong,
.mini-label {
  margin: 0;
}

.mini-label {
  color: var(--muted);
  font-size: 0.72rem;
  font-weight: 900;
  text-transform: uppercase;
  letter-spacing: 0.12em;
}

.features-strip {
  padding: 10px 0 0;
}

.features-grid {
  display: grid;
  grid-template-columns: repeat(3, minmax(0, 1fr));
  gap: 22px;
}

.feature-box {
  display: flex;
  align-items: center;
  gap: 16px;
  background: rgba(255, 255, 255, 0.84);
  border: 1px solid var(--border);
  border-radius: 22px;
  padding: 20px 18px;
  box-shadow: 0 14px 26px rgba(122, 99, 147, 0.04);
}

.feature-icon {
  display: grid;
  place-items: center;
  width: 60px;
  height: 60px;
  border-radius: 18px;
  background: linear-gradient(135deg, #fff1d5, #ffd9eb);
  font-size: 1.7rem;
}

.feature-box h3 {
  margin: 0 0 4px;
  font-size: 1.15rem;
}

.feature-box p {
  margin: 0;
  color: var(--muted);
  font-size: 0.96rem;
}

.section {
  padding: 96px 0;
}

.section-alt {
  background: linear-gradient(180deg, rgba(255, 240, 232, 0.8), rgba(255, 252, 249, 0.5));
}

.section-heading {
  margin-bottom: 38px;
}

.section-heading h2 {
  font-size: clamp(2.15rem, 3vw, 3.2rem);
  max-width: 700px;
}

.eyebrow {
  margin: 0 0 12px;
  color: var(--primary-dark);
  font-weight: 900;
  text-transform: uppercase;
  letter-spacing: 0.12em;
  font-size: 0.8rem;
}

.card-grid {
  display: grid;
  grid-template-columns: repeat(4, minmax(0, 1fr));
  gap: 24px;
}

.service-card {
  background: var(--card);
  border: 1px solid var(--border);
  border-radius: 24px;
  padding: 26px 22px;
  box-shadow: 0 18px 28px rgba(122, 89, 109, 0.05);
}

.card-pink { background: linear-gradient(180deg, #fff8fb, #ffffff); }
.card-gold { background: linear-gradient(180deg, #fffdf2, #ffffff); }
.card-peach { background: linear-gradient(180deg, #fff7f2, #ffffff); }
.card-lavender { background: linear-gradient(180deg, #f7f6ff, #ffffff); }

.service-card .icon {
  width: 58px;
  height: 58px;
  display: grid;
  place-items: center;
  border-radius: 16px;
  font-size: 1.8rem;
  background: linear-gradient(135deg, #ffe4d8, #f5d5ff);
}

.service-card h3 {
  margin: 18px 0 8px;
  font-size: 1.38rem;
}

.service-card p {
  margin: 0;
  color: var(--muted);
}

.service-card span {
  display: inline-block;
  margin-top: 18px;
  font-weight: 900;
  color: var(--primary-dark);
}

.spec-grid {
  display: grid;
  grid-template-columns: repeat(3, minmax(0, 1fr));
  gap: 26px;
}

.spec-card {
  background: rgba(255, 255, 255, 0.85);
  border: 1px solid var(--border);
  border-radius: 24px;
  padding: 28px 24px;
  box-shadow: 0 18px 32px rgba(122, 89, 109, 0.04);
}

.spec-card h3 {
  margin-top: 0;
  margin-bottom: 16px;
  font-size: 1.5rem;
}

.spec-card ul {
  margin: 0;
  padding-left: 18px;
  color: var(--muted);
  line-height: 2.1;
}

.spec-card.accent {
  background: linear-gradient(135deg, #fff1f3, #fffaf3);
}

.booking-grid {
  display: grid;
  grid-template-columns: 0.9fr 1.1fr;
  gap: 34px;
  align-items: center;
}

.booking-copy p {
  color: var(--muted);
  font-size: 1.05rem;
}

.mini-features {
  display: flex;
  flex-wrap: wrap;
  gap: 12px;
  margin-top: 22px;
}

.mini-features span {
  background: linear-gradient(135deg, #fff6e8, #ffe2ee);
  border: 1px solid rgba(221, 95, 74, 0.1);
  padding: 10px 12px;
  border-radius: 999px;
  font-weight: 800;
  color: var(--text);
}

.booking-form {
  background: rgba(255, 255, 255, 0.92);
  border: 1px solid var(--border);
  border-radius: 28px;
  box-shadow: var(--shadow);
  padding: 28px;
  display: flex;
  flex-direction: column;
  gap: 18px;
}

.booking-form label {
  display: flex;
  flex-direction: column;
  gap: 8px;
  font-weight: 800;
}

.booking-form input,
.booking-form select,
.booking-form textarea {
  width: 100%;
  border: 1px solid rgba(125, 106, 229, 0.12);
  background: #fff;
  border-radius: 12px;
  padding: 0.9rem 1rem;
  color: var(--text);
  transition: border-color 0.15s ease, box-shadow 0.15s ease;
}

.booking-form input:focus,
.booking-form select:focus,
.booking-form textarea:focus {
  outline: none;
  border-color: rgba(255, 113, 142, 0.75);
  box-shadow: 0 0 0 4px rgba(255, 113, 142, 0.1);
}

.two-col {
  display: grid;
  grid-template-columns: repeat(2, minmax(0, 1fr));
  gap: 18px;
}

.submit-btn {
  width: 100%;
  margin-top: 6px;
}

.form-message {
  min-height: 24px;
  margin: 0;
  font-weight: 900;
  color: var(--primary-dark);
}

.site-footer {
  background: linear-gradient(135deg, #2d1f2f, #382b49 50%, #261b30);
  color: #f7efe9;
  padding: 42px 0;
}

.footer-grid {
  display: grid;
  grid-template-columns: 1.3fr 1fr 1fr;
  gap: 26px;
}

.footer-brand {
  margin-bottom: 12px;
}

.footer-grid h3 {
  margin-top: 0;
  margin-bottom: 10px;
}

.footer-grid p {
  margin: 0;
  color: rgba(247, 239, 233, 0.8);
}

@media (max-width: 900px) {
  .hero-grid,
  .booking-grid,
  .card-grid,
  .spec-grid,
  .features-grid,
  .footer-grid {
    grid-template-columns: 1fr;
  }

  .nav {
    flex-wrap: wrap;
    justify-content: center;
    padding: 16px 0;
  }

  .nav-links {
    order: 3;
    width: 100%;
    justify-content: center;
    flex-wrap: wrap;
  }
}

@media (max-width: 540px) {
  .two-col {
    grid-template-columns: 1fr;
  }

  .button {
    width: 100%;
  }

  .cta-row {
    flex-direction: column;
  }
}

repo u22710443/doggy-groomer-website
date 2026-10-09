@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pawfect Grooming | Dog Grooming & Booking</title>
+    <meta
+      name="description"
+      content="Professional dog grooming services with bookings, breed-appropriate styling, and care for every size and coat length."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">🐾</span>
+          <span>Pawfect Grooming</span>
+        </div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#sizes">Dog Specs</a>
+          <a href="#booking">Book</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button-primary" href="#booking">Book Now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="pill">Doggy spa & salon</span>
+            <h1>Fresh coats, happy dogs, and stylish pups.</h1>
+            <p class="lead">
+              From tiny toy pups to big fluffy best friends, we care for every dog with a
+              grooming routine designed around their size, coat, and personality.
+            </p>
+            <div class="cta-row">
+              <a class="button button-primary" href="#booking">Book a Grooming</a>
+              <a class="button button-secondary" href="#services">View Services</a>
+            </div>
+            <ul class="stats">
+              <li><strong>4.9/5</strong><span>Client rating</span></li>
+              <li><strong>1,200+</strong><span>Pups groomed</span></li>
+              <li><strong>7 days</strong><span>Open weekly</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="dog-illustration" aria-label="Dog groomer illustration">
+              <div class="dog-face">
+                <span class="ear left"></span>
+                <span class="ear right"></span>
+                <span class="eye left"></span>
+                <span class="eye right"></span>
+                <span class="nose"></span>
+                <span class="smile"></span>
+              </div>
+            </div>
+            <div class="booking-mini">
+              <span class="mini-label">Most loved package</span>
+              <strong>Full Groom + Styling</strong>
+              <p>From $55</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features-strip">
+        <div class="container features-grid">
+          <div class="feature-box">
+            <span class="feature-icon">🐶</span>
+            <div>
+              <h3>Breed-aware styling</h3>
+              <p>Tailored trims for every dog type.</p>
+            </div>
+          </div>
+          <div class="feature-box">
+            <span class="feature-icon">💛</span>
+            <div>
+              <h3>Gentle handling</h3>
+              <p>Calm, caring treatment for nervous pets.</p>
+            </div>
+          </div>
+          <div class="feature-box">
+            <span class="feature-icon">🧼</span>
+            <div>
+              <h3>Healthy coat care</h3>
+              <p>Bath, brush, trim, and finish with care.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Our services</p>
+            <h2>Tailored grooming that fits every pup</h2>
+          </div>
+
+          <div class="card-grid">
+            <article class="service-card card-pink">
+              <div class="icon">🛁</div>
+              <h3>Bath & Brush</h3>
+              <p>Gentle cleansing, coat detangling, and skin-friendly care that leaves coats soft and shiny.</p>
+              <span>From $30</span>
+            </article>
+
+            <article class="service-card card-gold">
+              <div class="icon">✂️</div>
+              <h3>Haircut & Trim</h3>
+              <p>Breed-appropriate shaping and neat finishing details to keep your dog looking polished.</p>
+              <span>From $45</span>
+            </article>
+
+            <article class="service-card card-peach">
+              <div class="icon">✨</div>
+              <h3>Full Groom</h3>
+              <p>Bath, haircut, nail trim, ear cleaning, and extra finishing touches for a complete makeover.</p>
+              <span>From $65</span>
+            </article>
+
+            <article class="service-card card-lavender">
+              <div class="icon">🧴</div>
+              <h3>De-shedding</h3>
+              <p>Perfect for heavy seasonal shedding and double-coated breeds that need extra brushing support.</p>
+              <span>From $50</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="sizes" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Dog sizes & coat types</p>
+            <h2>Pick the right care for your dog</h2>
+          </div>
+
+          <div class="spec-grid">
+            <div class="spec-card">
+              <h3>Dog size</h3>
+              <ul>
+                <li><strong>Tiny</strong> — up to 10 lbs</li>
+                <li><strong>Small</strong> — 11–25 lbs</li>
+                <li><strong>Medium</strong> — 26–50 lbs</li>
+                <li><strong>Large</strong> — 51–90 lbs</li>
+                <li><strong>Giant</strong> — 91+ lbs</li>
+              </ul>
+            </div>
+
+            <div class="spec-card">
+              <h3>Hair length</h3>
+              <ul>
+                <li><strong>Short</strong> — low-maintenance trim</li>
+                <li><strong>Medium</strong> — regular grooming care</li>
+                <li><strong>Long</strong> — brushing & detangling</li>
+                <li><strong>Curly</strong> — extra shaping & moisture</li>
+                <li><strong>Double coat</strong> — de-shedding included</li>
+              </ul>
+            </div>
+
+            <div class="spec-card accent">
+              <h3>What we check</h3>
+              <ul>
+                <li>Breed and coat type</li>
+                <li>Skin sensitivity</li>
+                <li>Matt removal needs</li>
+                <li>Style preferences</li>
+                <li>Comfort and coat health</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="booking" class="section booking-section">
+        <div class="container booking-grid">
+          <div class="booking-copy">
+            <p class="eyebrow">Book a groom</p>
+            <h2>Let’s make your dog feel amazing again.</h2>
+            <p>
+              Share your dog’s size, coat type, and grooming needs so we can plan a great
+              appointment for a relaxed, happy visit.
+            </p>
+            <div class="mini-features">
+              <span>✔ Gentle handling</span>
+              <span>✔ Coat-specific care</span>
+              <span>✔ Flexible booking</span>
+            </div>
+          </div>
+
+          <form id="booking-form" class="booking-form">
+            <label>
+              Dog name
+              <input type="text" id="dogName" name="dogName" placeholder="Buddy" required />
+            </label>
+
+            <div class="two-col">
+              <label>
+                Dog size
+                <select id="dogSize" name="dogSize" required>
+                  <option value="">Select size</option>
+                  <option>Tiny</option>
+                  <option>Small</option>
+                  <option>Medium</option>
+                  <option>Large</option>
+                  <option>Giant</option>
+                </select>
+              </label>
+
+              <label>
+                Hair length
+                <select id="hairLength" name="hairLength" required>
+                  <option value="">Select coat</option>
+                  <option>Short</option>
+                  <option>Medium</option>
+                  <option>Long</option>
+                  <option>Curly</option>
+                  <option>Double coat</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              Service
+              <select id="service" name="service" required>
+                <option value="">Choose service</option>
+                <option>Bath & Brush</option>
+                <option>Haircut & Trim</option>
+                <option>Full Groom</option>
+                <option>De-shedding</option>
+              </select>
+            </label>
+
+            <div class="two-col">
+              <label>
+                Preferred date
+                <input type="date" id="date" name="date" required />
+              </label>
+
+              <label>
+                Preferred time
+                <input type="time" id="time" name="time" required />
+              </label>
+            </div>
+
+            <label>
+              Notes
+              <textarea id="notes" name="notes" rows="4" placeholder="Any special coat needs, allergies, or style requests?"></textarea>
+            </label>
+
+            <button type="submit" class="button button-primary submit-btn">Request Booking</button>
+            <p id="form-message" class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">🐾</span>
+            <span>Pawfect Grooming</span>
+          </div>
+          <p>Gentle care, healthy coats, and happy tails.</p>
+        </div>
+
+        <div>
+          <h3>Visit us</h3>
+          <p>22 Bark Avenue<br />Sunnydale, CA</p>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <p>(555) 123-PAWS<br />hello@pawfectgrooming.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
